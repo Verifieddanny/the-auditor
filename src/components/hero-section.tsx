@@ -68,7 +68,7 @@ export default function HeroSection() {
                             }}
                             className="mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32">
                             <img
-                                src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
+                                src="/black-b.webp"
                                 alt="background"
                                 className="hidden size-full dark:block"
                                 width="3276"
@@ -193,17 +193,19 @@ export default function HeroSection() {
                                 <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
                                     <img
                                         className="bg-background aspect-15/8 relative hidden rounded-2xl dark:block"
-                                        src="/app-screen-dark.png"
+                                        src="/app-screen-dark.webp"
                                         alt="app screen"
                                         width="2700"
                                         height="1440"
+                                        fetchPriority="high"
                                     />
                                     <img
                                         className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
-                                        src="app-screen-light.png"
+                                        src="app-screen-light.webp"
                                         alt="app screen"
                                         width="2700"
                                         height="1440"
+                                        fetchPriority="high"
                                     />
                                 </div>
                             </div>
