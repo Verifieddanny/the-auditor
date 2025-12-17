@@ -163,11 +163,11 @@ export function HowItWorksVideo() {
 
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-4">
-                                        <button onClick={togglePlayPause} className="text-white hover:text-primary transition-colors">
+                                        <button name='togglePlayPause' type='button' onClick={togglePlayPause} className="text-white hover:text-primary transition-colors">
                                             {isPaused ? <Play className="h-5 w-5 fill-current" /> : <div className="h-4 w-4 bg-white rounded-sm" />}
                                         </button>
 
-                                        <button onClick={(e) => { e.stopPropagation(); handleVideoClick(); }} className="text-white hover:text-primary transition-colors">
+                                        <button name="Volume Mute" type='button' onClick={(e) => { e.stopPropagation(); handleVideoClick(); }} className="text-white hover:text-primary transition-colors">
                                             {isMuted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
                                         </button>
                                     </div>

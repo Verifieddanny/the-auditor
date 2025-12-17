@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/lib/utils';
 
 const LOGO_MAP: Record<string, { color: string; logo: (props: any) => React.ReactNode }> = {
-    'Sui': { color: 'text-teal-400', logo: (props) => <img src="/logos/sui.png" {...props} alt="Sui" /> },
-    'Celo': { color: 'text-[#fbff00]', logo: (props) => <img src="/logos/celo.png" {...props} alt="Celo" /> },
-    'Base': { color: 'text-blue-500', logo: (props) => <img src="/logos/base.png" {...props} alt="Base" /> },
+    'Sui': { color: 'text-teal-400', logo: (props) => <img src="/logos/sui.webp" {...props} alt="Sui" /> },
+    'Celo': { color: 'text-[#fbff00]', logo: (props) => <img src="/logos/celo.webp" {...props} alt="Celo" /> },
+    'Base': { color: 'text-blue-500', logo: (props) => <img src="/logos/base.webp" {...props} alt="Base" /> },
 };
 
 interface InlineLogoTransformProps {
