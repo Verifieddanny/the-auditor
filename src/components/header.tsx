@@ -13,7 +13,7 @@ const menuItems = [
     { name: 'Docs', href: 'https://github.com/Verifieddanny/the-auditor-bot' },
 ]
 
-const BOT_LINK = "https://t.me/The_AuditorBot"
+const BOT_LINK = "https://t.me/The_MultiChainAuditorBot"
 
 export const HeroHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
