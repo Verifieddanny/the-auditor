@@ -5,7 +5,7 @@ import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
 import { InlineLogoTransform } from './inline-logo-transform'
 
-const BOT_LINK = "https://t.me/The_AuditorBot";
+const BOT_LINK = "https://t.me/The_MultiChainAuditorBot";
 
 export const transitionVariants = {
     item: {

@@ -16,7 +16,7 @@ export function Footer() {
                 </div>
 
                 <a 
-                    href="https://t.me/The_AuditorBot" 
+                    href="https://t.me/The_MultiChainAuditorBot" 
                     className="bg-primary/10 border border-primary/20 text-primary px-6 py-2 rounded-full font-bold hover:bg-primary hover:text-white transition-all duration-300"
                 >
                     Launch Bot
